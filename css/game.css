@@ -1,0 +1,14 @@
+.background    { background: rgb(21, 9, 16);
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.data          { background: rgb(111, 101, 255); }
+.wall          { background: rgb(92, 255, 86); }
+.bitcoin       { background: rgb(250, 237, 8); }
+
+.game {
+  overflow: hidden;
+  max-width: 1000px;
+  max-height: 450px;
+  position: relative;
+}
